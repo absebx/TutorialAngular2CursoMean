@@ -13,7 +13,7 @@ export class AppComponent {
   public description: string;
 
   constructor(){
-    this.title = "favoritos"
+    this.title = "APP favoritos"
     this.description = "Aplicacion para tener favoritos";
   }
 }
