@@ -15,10 +15,12 @@ export class FavoritosListComponent implements OnInit{
   public title: string;
   public favoritos: Favorito[];
   public errorMessage;
+  public loading: boolean;
 
   //EL Constructor asigna valores
   constructor(private _favoritoService: FavoritoService){
     this.title = 'Listado de marcadores';
+    this.loading = true;
   }
 
   //esto se ejecuta al principio del controlador y puede tener cualquier logica
@@ -31,6 +33,8 @@ export class FavoritosListComponent implements OnInit{
 
         if(!this.favoritos){
           alert("error en el servidor");
+        }else{
+          this.loading = false;
         }
       }, error => {
         this.errorMessage = <any>error;
