@@ -120,6 +120,17 @@ header #logo{
   margin-left: 0px;
 }
 
+.favorito-box{
+  margin-left: 25px;
+  background: white;
+  border: 1px solid #ddd;
+  width: 90%;
+  min-height: 150px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding: 20px;
+}
+
 
 footer{
   width: 80%;

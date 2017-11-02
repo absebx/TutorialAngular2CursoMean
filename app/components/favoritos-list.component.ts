@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router, ActivatedRoute, Params} from '@angular/router'; //este import es para usar los servicios del router
 
 import {FavoritoService} from '../services/favorito.service';
 import {Favorito} from '../models/favorito';
