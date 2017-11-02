@@ -52,6 +52,75 @@ header #logo{
   margin-top: 10px;
 }
 
+#favoritos-list{
+  padding: 0px;
+  margin: 0px;
+}
+
+.favorito-item{
+  list-style: none;
+  border: 1px solid #ddd;
+  float:left;
+  width: 31%;
+  height: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
+  background: white;
+  margin: 10px;
+}
+
+.favorito-item h4{
+  color: #444;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+.favorito-item .url{
+  margin: 0px;
+  padding: 0px;
+  height: 45px;
+  overflow: hidden;
+}
+
+.favorito-item .content-data{
+  float: left;
+  margin-left: 20px;
+}
+
+.btn{
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-color: #1976D2;
+  border-radius: 4px;
+  box-shadow: 0px, 0px, 5px,#ddd;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background: #0074D9;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn-editar{
+  background: #0a0;
+  border-color: #59a600;
+}
+
+.btn-eliminar{
+  background: #e23237;
+  border-color: #f54747;
+}
+
+.btn-default{
+  background: #eaa615;
+  border-color: #cc941c;
+  color: white;
+  margin-left: 0px;
+}
+
+
 footer{
   width: 80%;
   margin: 0px auto;
